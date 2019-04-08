@@ -25,7 +25,7 @@ We recommend viewing the data with OS OpenMap Local and/or OS VectorMap District
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Greenspace-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Greenspace_screenshot.png "Screenshot of OS Open Greenspace over OS OpenMap Local")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Greenspace-stylesheets/raw/master/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Greenspace_screenshot.png "Screenshot of OS Open Greenspace over OS OpenMap Local")
 
 
 
