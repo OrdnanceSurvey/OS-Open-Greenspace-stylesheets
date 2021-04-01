@@ -1,0 +1,145 @@
+{
+    "version": 8,
+    "name": "Open Greenspace",
+    "metadata": {
+        "mapbox:type": "default",
+        "mapbox:origin": "monochrome-dark-v1",
+        "mapbox:sdk-support": {
+            "android": "9.3.0",
+            "ios": "5.10.0",
+            "js": "2.0.0"
+        },
+        "mapbox:autocomposite": true,
+        "mapbox:uiParadigm": "components",
+        "mapbox:groups": {}
+    },
+    "center": [-0.3468954532152111, 51.61243791028045],
+    "zoom": 13.350219339087948,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {"url": "mapbox://ADD-SOURCE-URL-HERE", "type": "vector"}
+    },
+    "sprite": "mapbox://sprites/workshops/ckm3gy8du7ie717t8e15f3b7z/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/workshops/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "greenspace-site fills",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "greenspace_site",
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "function"],
+                    ["Allotments Or Community Growing Spaces"],
+                    "hsla(14, 20%, 51%, 0.5)",
+                    ["Bowling Green"],
+                    "hsla(60, 85%, 50%, 0.5)",
+                    ["Tennis Court"],
+                    "hsla(23, 100%, 51%, 0.5)",
+                    ["Religious Grounds"],
+                    "hsla(222, 34%, 63%, 0.5)",
+                    ["Playing Field"],
+                    "hsla(125, 38%, 49%, 0.5)",
+                    ["Cemetery"],
+                    "hsla(245, 37%, 64%, 0.5)",
+                    ["Public Park Or Garden"],
+                    "hsla(174, 100%, 29%, 0.5)",
+                    ["Other Sports Facility"],
+                    "hsla(48, 100%, 51%, 0.5)",
+                    ["Golf Course"],
+                    "hsla(66, 70%, 54%, 0.5)",
+                    ["Play Space"],
+                    "hsla(36, 100%, 50%, 0.5)",
+                    "hsla(163, 68%, 31%, 0.5)"
+                ]
+            }
+        },
+        {
+            "id": "greenspace-site outlines",
+            "type": "line",
+            "source": "composite",
+            "source-layer": "greenspace_site",
+            "minzoom": 12,
+            "paint": {
+                "line-color": [
+                    "match",
+                    ["get", "function"],
+                    ["Allotments Or Community Growing Spaces"],
+                    "hsl(14, 20%, 51%)",
+                    ["Bowling Green"],
+                    "hsl(60, 85%, 50%)",
+                    ["Tennis Court"],
+                    "hsl(23, 100%, 51%)",
+                    ["Religious Grounds"],
+                    "hsl(222, 34%, 63%)",
+                    ["Playing Field"],
+                    "#4dad55",
+                    ["Cemetery"],
+                    "hsl(245, 37%, 64%)",
+                    ["Public Park Or Garden"],
+                    "hsl(174, 100%, 29%)",
+                    ["Other Sports Facility"],
+                    "hsl(48, 100%, 51%)",
+                    ["Golf Course"],
+                    "hsl(66, 70%, 54%)",
+                    ["Play Space"],
+                    "hsl(36, 100%, 50%)",
+                    "hsl(163, 68%, 31%)"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    12,
+                    0.4,
+                    18,
+                    1,
+                    19,
+                    1.5
+                ]
+            }
+        },
+        {
+            "id": "access-point",
+            "type": "circle",
+            "source": "composite",
+            "source-layer": "access_point",
+            "minzoom": 14,
+            "layout": {},
+            "paint": {
+                "circle-color": [
+                    "match",
+                    ["get", "access_type"],
+                    ["Motor Vehicle"],
+                    "#0472d8",
+                    ["Motor Vehicle And Pedestrian"],
+                    "#ffe600",
+                    ["Pedestrian"],
+                    "#05e10b",
+                    "#000000"
+                ],
+                "circle-stroke-width": 1,
+                "circle-radius": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    14,
+                    2.7,
+                    18,
+                    4,
+                    19,
+                    5
+                ]
+            }
+        }
+    ],
+    "created": "2021-03-10T13:19:22.870Z",
+    "modified": "2021-03-23T21:58:57.768Z",
+    "id": "ckm3gy8du7ie717t8e15f3b7z",
+    "owner": "ordnancesurvey",
+    "visibility": "public",
+    "draft": false
+}
