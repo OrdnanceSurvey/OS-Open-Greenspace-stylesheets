@@ -1,6 +1,6 @@
 ﻿# OS Open Greenspace
 
-These are LYR files for OS Open Greenspace in ESRI Shapefile format for use in ESRI ArcGIS.
+These are **LYR** files for OS Open Greenspace in **ESRI Shapefile** format for use in **ESRI ArcGIS**.
 
 *They have been designed to work with the data as it is supplied.*
 
