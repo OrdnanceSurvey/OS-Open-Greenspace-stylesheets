@@ -1,6 +1,6 @@
 ﻿# OS Open Greenspace
 
-These are SLD files for OS Open Greenspace Layer in ESRI Shapefile format for use in GeoServer.
+These are **SLD** files for OS Open Greenspace Layer in **ESRI Shapefile** format for use in **GeoServer**.
 
 *They have been designed to work with the data as it is supplied.*
 
