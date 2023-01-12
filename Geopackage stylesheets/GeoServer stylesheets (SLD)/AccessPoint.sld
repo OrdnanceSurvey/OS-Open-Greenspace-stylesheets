@@ -5,17 +5,17 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Greenspace - AccessPoint</Name>
     <UserStyle>
-      <Title>Product SLD - March 2019</Title>
-      <Abstract>OS Open Greenspace. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
-      <!-- AccessPoint -->         
-      
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Greenspace. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
+
+      <!-- AccessPoint -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Motor Vehicle - 1:2,400 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>accessType</ogc:PropertyName>
+              <ogc:PropertyName>accesstype</ogc:PropertyName>
               <ogc:Literal>Motor Vehicle</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -41,7 +41,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Pedestrian - 1:2,400 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>accessType</ogc:PropertyName>
+              <ogc:PropertyName>accesstype</ogc:PropertyName>
               <ogc:Literal>Pedestrian</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -67,7 +67,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Motor Vehicle And Pedestrian - 1:2,400 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>accessType</ogc:PropertyName>
+              <ogc:PropertyName>accesstype</ogc:PropertyName>
               <ogc:Literal>Motor Vehicle And Pedestrian</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
