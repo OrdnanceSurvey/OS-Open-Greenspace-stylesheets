@@ -5,11 +5,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Greenspace - GreenspaceSite</Name>
     <UserStyle>
-      <Title>Product SLD - March 2017</Title>
-      <Abstract>OS Open Greenspace. Ordnance Survey. &#169; Crown copyright 2017.</Abstract>
-      
-      <!-- GreenspaceSite -->       
-      
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Greenspace. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
+
+      <!-- GreenspaceSite -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Park - 1:30,000 to 1:2,400</Name>
@@ -20,7 +20,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#009688</CssParameter>
@@ -43,7 +43,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#CDDC39</CssParameter>
@@ -66,7 +66,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#4DAD55</CssParameter>
@@ -89,7 +89,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FFCE07</CssParameter>
@@ -112,7 +112,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#9B7468</CssParameter>
@@ -135,7 +135,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FF6607</CssParameter>
@@ -158,7 +158,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#FF9800</CssParameter>
@@ -171,7 +171,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </LineSymbolizer>
-        </Rule> 
+        </Rule>
         <Rule>
           <Name>Bowls - 1:30,000 to 1:2,400</Name>
           <ogc:Filter>
@@ -181,7 +181,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#EAEA13</CssParameter>
@@ -204,7 +204,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8094C1</CssParameter>
@@ -227,7 +227,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>2400</MinScaleDenominator>
-          <MaxScaleDenominator>30000</MaxScaleDenominator>       
+          <MaxScaleDenominator>30000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#8680C4</CssParameter>
