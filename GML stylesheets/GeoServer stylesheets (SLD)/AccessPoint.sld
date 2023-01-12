@@ -5,11 +5,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS Open Greenspace - AccessPoint</Name>
     <UserStyle>
-      <Title>Product SLD - March 2017</Title>
-      <Abstract>OS Open Greenspace. Ordnance Survey. &#169; Crown copyright 2017.</Abstract>
-      
-      <!-- AccessPoint -->         
-      
+      <Title>Product SLD - January 2023</Title>
+      <Abstract>OS Open Greenspace. Ordnance Survey. &#169; Crown copyright 2023.</Abstract>
+
+      <!-- AccessPoint -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Motor Vehicle - 1:2,400 to 1:25,000</Name>
