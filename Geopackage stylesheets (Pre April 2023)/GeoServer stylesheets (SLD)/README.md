@@ -4,7 +4,7 @@ These are **SLD** files for **OS Open Greenspace** in **Geopackage** format for 
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
-***These stylesheets are designed to be used with geopackage data downloaded from the OS DataHub prior to April 2023***
+*These stylesheets are designed to be used with geopackage data downloaded from the OS DataHub prior to April 2023*
 
 ## Quick start guide
 
