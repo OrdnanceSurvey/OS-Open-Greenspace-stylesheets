@@ -2,7 +2,7 @@
 
 These are QML files for OS Open Greenspace in Geopackage format for use in QGIS.
 
-*They have been designed to work with the data as it is supplied.*
+*They have been designed to work with the data as it is supplied and downloaded from the OS data hub **prior to April 2023***
 
 ## Quick start guide
 
