@@ -8,7 +8,7 @@ These are **lyrx** files for OS Open Greenspace in **Geopackage** format for use
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-Open-Greenspace-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  In ArcPro, right-click on ‘Layers’ at the top of the Table Of Contents, select Properties… > then under the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
+**2.**  In ArcPro, right-click on ‘Map’ at the top of the Table Of Contents, select Properties… > then under the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
 
 **3.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format and stylesheet format
 
