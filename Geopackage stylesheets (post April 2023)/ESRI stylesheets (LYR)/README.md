@@ -2,7 +2,7 @@
 
 These are **LYR files** for OS Open Greenspace in **Geopackage** format for use in ESRI ArcGIS. 
 
-*They have been designed to work with the data as it is supplied and are designed to work with the geopackage **downloaded after April 2023** *
+*They have been designed to work with the data as it is supplied and are designed to work with the geopackage downloaded after April 2023*
 
 ## Quick start guide
 
