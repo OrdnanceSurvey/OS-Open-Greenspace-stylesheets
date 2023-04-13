@@ -1,6 +1,6 @@
 ﻿# OS Open Greenspace
 
-These are SLD files for OS Open Greenspace Layer in Geopackage format for use in GeoServer.
+These are *SLD** files for **OS Open Greenspace** in **Geopackage** format for use in GeoServer.
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
