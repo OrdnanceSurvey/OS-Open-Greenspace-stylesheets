@@ -25,7 +25,7 @@ We recommend viewing the data with OS OpenMap Local and/or OS VectorMap District
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Greenspace-stylesheets/raw/master/Geopackage%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OpenGreenspace_ArcPro.JPG "Screenshot of OS Open Greenspace over OS OpenMap Local")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-Open-Greenspace-stylesheets/blob/98a2f0c3fc26ecf1f3205a76c8b16d9e766a6207/Geopackage%20stylesheets%20(post%20April%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/images/OpenGreenspace_ArcPro.JPG "Screenshot of OS Open Greenspace over OS OpenMap Local")
 
 
 ## Additional information
