@@ -2,7 +2,7 @@
 
 These are **lyrx** files for OS Open Greenspace in **Geopackage** format for use in **ESRI ArcPro**.
 
-*They have been designed to work with the data as it is supplied and downloaded in geopackage format after April 2023*
+*They have been designed to work with the data as it is supplied and downloaded in geopackage format **after April 2023***
 
 ## Quick start guide
 
